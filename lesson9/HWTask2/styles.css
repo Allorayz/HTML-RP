@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	z-index: 1;
+	background-color: darkturquoise;
+}
+
+.navigation {
+	float: left;
+	height: 40px;
+}
+
+.nav-list {
+	float: left;
+	margin: 0px;
+}
+
+.nav-item {
+	float: left;
+	margin-left: 16px;
+	line-height: 40px;
+	list-style-type: none;
+	color: white;
+}
+
+.content {
+	background-color: beige;
+	height: 5000px;
+}
+
+.head {
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+	position: absolute;
+	top: calc(50% - 200px / 2);
+	left: calc(50% - 200px / 2);
+}
+
+.ear {
+	height: 60px;
+	width: 40px;
+	background-color: brown;
+}
+
+.ear_left {
+	position: absolute;
+	top: -60px;
+	left: -40px;
+}
+
+.ear_right {
+	position: absolute;
+	top: -60px;
+	right: -40px;
+}
+
+.eye {
+	position: absolute;
+	top: 80px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: gray;
+}
+
+.eye_left {
+	left: 40px;
+}
+
+.eye_right {
+	right: 40px;
+}
