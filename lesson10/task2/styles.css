@@ -4,6 +4,7 @@ div.block {
 }
 
 .block {
+	display: flex;
 	height: 100px;
 	min-width: 100px;
 	flex-shrink: 0;
