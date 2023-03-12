@@ -4,12 +4,13 @@
 
 .dropdown {
 	position: relative;
-	display: inline-block;
 	margin: 16px;
-	padding: 16px;
 	background-color: darkgreen;
-	color: white;
 	opacity: 0.8;
+	color: white;
+	display: inline-block;
+	padding: 16px;
+	font-size: 16px;
 	cursor: pointer;
 }
 
@@ -19,20 +20,17 @@
 
 .menu-list {
 	position: absolute;
-	left: 0;
+	left: 0px;
 	top: 50px;
-	display: none;
 	color: black;
-	background-color: lightcyan;
-	min-width: 120px;
-	padding: 0;
-	margin: 0;
 	list-style-type: none;
-	z-index: 1;
+	background-color: lightcyan;
+	margin: 0px;
+	padding: 0px;
+	min-width: 120px;
 	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-.dropdown:hover .menu-list {
-	display: block;
+	display: none;
+	z-index: 1;
 }
 
 .menu-item {
@@ -40,4 +38,8 @@
 }
 .menu-item:hover {
 	background-color: ghostwhite;
+}
+
+.dropdown:hover .menu-list {
+	display: block;
 }
