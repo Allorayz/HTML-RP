@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+.awesome-button {
+	margin: 64px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	background-color: coral;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	border-radius: 4px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.bird-icon {
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+}
+
+.awesome-button:hover {
+	color: darkcyan;
+}
+
+.bird-icon:hover {
+	fill: green;
+}
