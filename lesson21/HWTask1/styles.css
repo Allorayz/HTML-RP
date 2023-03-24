@@ -43,8 +43,10 @@ body {
 .nav-list-item {
 	background-color: #808080;
 	color: white;
+	height: 2em;
 	line-height: 2em;
 	margin-bottom: 0.5em;
+	padding: 0 0.5em;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -52,7 +54,6 @@ body {
 
 .nav-list-link {
 	color: white;
-	padding: 0 0.5em;
 	text-decoration: none;
 }
 
